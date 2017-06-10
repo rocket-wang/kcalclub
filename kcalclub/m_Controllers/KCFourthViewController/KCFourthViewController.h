@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KCFourthViewController.h
 //  kcalclub
 //
 //  Created by WangLei on 2017/6/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KCFourthViewController : UIViewController
 
 @end
-

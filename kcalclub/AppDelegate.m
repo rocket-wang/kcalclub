@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "KCMainNavigationController.h"
+#import "KCCoverTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    KCCoverTabBarController *viewController = [[KCCoverTabBarController alloc] init];
+    KCMainNavigationController *navigationController = [[KCMainNavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
