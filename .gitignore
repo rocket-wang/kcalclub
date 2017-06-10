@@ -1,0 +1,7 @@
+#.gitignore
+# ignore cocoaPods
+/Pods
+
+
+# ignore Podfile.lock
+Podfile.lock

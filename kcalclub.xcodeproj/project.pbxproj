@@ -15,6 +15,7 @@
 		9BD985F51EEC3ED300E4B7E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD985F31EEC3ED300E4B7E5 /* LaunchScreen.storyboard */; };
 		9BD986001EEC3ED300E4B7E5 /* kcalclubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD985FF1EEC3ED300E4B7E5 /* kcalclubTests.m */; };
 		9BD9860B1EEC3ED300E4B7E5 /* kcalclubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9860A1EEC3ED300E4B7E5 /* kcalclubUITests.m */; };
+		FCAAA3704191688549A3A1F7 /* libPods-kcalclub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB08117715AABD5FC7D454C3 /* libPods-kcalclub.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5271F982E043C01A3C45A1 /* Pods-kcalclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalclub.release.xcconfig"; path = "Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub.release.xcconfig"; sourceTree = "<group>"; };
 		9BD985E21EEC3ED200E4B7E5 /* kcalclub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcalclub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD985E61EEC3ED200E4B7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BD985E81EEC3ED200E4B7E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		9BD986061EEC3ED300E4B7E5 /* kcalclubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kcalclubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD9860A1EEC3ED300E4B7E5 /* kcalclubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kcalclubUITests.m; sourceTree = "<group>"; };
 		9BD9860C1EEC3ED300E4B7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B041262D762DAE7DE139DB /* Pods-kcalclub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalclub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub.debug.xcconfig"; sourceTree = "<group>"; };
+		EB08117715AABD5FC7D454C3 /* libPods-kcalclub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kcalclub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAAA3704191688549A3A1F7 /* libPods-kcalclub.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F99938DF602514F1B4281ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B041262D762DAE7DE139DB /* Pods-kcalclub.debug.xcconfig */,
+				0E5271F982E043C01A3C45A1 /* Pods-kcalclub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9BD985D91EEC3ED200E4B7E5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				9BD985FE1EEC3ED300E4B7E5 /* kcalclubTests */,
 				9BD986091EEC3ED300E4B7E5 /* kcalclubUITests */,
 				9BD985E31EEC3ED200E4B7E5 /* Products */,
+				0F99938DF602514F1B4281ED /* Pods */,
+				DFB98544746116F674C9296C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +165,14 @@
 			path = m_ViewControllers;
 			sourceTree = "<group>";
 		};
+		DFB98544746116F674C9296C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB08117715AABD5FC7D454C3 /* libPods-kcalclub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD9860F1EEC3ED300E4B7E5 /* Build configuration list for PBXNativeTarget "kcalclub" */;
 			buildPhases = (
+				7EBDC2572DD2B1E08CA6B535 /* [CP] Check Pods Manifest.lock */,
 				9BD985DE1EEC3ED200E4B7E5 /* Sources */,
 				9BD985DF1EEC3ED200E4B7E5 /* Frameworks */,
 				9BD985E01EEC3ED200E4B7E5 /* Resources */,
+				B85408AC9831DD07B24933E3 /* [CP] Embed Pods Frameworks */,
+				65373838EFE292B8A364BE1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65373838EFE292B8A364BE1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBDC2572DD2B1E08CA6B535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B85408AC9831DD07B24933E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BD985DE1EEC3ED200E4B7E5 /* Sources */ = {
@@ -434,6 +509,7 @@
 		};
 		9BD986101EEC3ED300E4B7E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B041262D762DAE7DE139DB /* Pods-kcalclub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2WQR64XD6;
@@ -448,6 +524,7 @@
 		};
 		9BD986111EEC3ED300E4B7E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5271F982E043C01A3C45A1 /* Pods-kcalclub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2WQR64XD6;
