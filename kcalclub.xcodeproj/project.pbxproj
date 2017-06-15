@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0C5D521EED0F68009CC963 /* KCPassportNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C5D511EED0F68009CC963 /* KCPassportNavigationController.m */; };
+		9B0C5D551EED0F7E009CC963 /* KCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C5D541EED0F7E009CC963 /* KCLoginViewController.m */; };
+		9B0C5D581EED0F8F009CC963 /* KCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C5D571EED0F8F009CC963 /* KCRegisterViewController.m */; };
+		9B0C5D5E1EEE47C4009CC963 /* KCNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C5D5D1EEE47C4009CC963 /* KCNetworkStatus.m */; };
+		9B0C5D621EEE4AA2009CC963 /* KCHttpsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C5D611EEE4AA2009CC963 /* KCHttpsClient.m */; };
 		9BD985E71EEC3ED200E4B7E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD985E61EEC3ED200E4B7E5 /* main.m */; };
 		9BD985EA1EEC3ED200E4B7E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD985E91EEC3ED200E4B7E5 /* AppDelegate.m */; };
 		9BD985F21EEC3ED300E4B7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD985F11EEC3ED300E4B7E5 /* Assets.xcassets */; };
@@ -19,6 +24,7 @@
 		9BD986321EEC4ED000E4B7E5 /* KCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986311EEC4ED000E4B7E5 /* KCSecondViewController.m */; };
 		9BD986351EEC4EDA00E4B7E5 /* KCThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986341EEC4EDA00E4B7E5 /* KCThirdViewController.m */; };
 		9BD986391EEC56E500E4B7E5 /* KCCoverNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986381EEC56E500E4B7E5 /* KCCoverNavigationController.m */; };
+		9BD9863E1EEC5B7100E4B7E5 /* KCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9863D1EEC5B7100E4B7E5 /* KCUser.m */; };
 		FCAAA3704191688549A3A1F7 /* libPods-kcalclub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB08117715AABD5FC7D454C3 /* libPods-kcalclub.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +47,16 @@
 
 /* Begin PBXFileReference section */
 		0E5271F982E043C01A3C45A1 /* Pods-kcalclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalclub.release.xcconfig"; path = "Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub.release.xcconfig"; sourceTree = "<group>"; };
+		9B0C5D501EED0F68009CC963 /* KCPassportNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPassportNavigationController.h; sourceTree = "<group>"; };
+		9B0C5D511EED0F68009CC963 /* KCPassportNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPassportNavigationController.m; sourceTree = "<group>"; };
+		9B0C5D531EED0F7E009CC963 /* KCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLoginViewController.h; sourceTree = "<group>"; };
+		9B0C5D541EED0F7E009CC963 /* KCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLoginViewController.m; sourceTree = "<group>"; };
+		9B0C5D561EED0F8F009CC963 /* KCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRegisterViewController.h; sourceTree = "<group>"; };
+		9B0C5D571EED0F8F009CC963 /* KCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRegisterViewController.m; sourceTree = "<group>"; };
+		9B0C5D5C1EEE47C4009CC963 /* KCNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNetworkStatus.h; sourceTree = "<group>"; };
+		9B0C5D5D1EEE47C4009CC963 /* KCNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNetworkStatus.m; sourceTree = "<group>"; };
+		9B0C5D601EEE4AA2009CC963 /* KCHttpsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHttpsClient.h; sourceTree = "<group>"; };
+		9B0C5D611EEE4AA2009CC963 /* KCHttpsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHttpsClient.m; sourceTree = "<group>"; };
 		9BD985E21EEC3ED200E4B7E5 /* kcalclub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcalclub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD985E61EEC3ED200E4B7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BD985E81EEC3ED200E4B7E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +83,8 @@
 		9BD986341EEC4EDA00E4B7E5 /* KCThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCThirdViewController.m; sourceTree = "<group>"; };
 		9BD986371EEC56E500E4B7E5 /* KCCoverNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCCoverNavigationController.h; sourceTree = "<group>"; };
 		9BD986381EEC56E500E4B7E5 /* KCCoverNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCCoverNavigationController.m; sourceTree = "<group>"; };
+		9BD9863C1EEC5B7100E4B7E5 /* KCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCUser.h; sourceTree = "<group>"; };
+		9BD9863D1EEC5B7100E4B7E5 /* KCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCUser.m; sourceTree = "<group>"; };
 		D6B041262D762DAE7DE139DB /* Pods-kcalclub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalclub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub.debug.xcconfig"; sourceTree = "<group>"; };
 		EB08117715AABD5FC7D454C3 /* libPods-kcalclub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kcalclub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +124,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9B0C5D4D1EED0F49009CC963 /* KCLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C5D531EED0F7E009CC963 /* KCLoginViewController.h */,
+				9B0C5D541EED0F7E009CC963 /* KCLoginViewController.m */,
+			);
+			path = KCLoginViewController;
+			sourceTree = "<group>";
+		};
+		9B0C5D4E1EED0F49009CC963 /* KCPassportNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C5D501EED0F68009CC963 /* KCPassportNavigationController.h */,
+				9B0C5D511EED0F68009CC963 /* KCPassportNavigationController.m */,
+			);
+			path = KCPassportNavigationController;
+			sourceTree = "<group>";
+		};
+		9B0C5D4F1EED0F49009CC963 /* KCRegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C5D561EED0F8F009CC963 /* KCRegisterViewController.h */,
+				9B0C5D571EED0F8F009CC963 /* KCRegisterViewController.m */,
+			);
+			path = KCRegisterViewController;
+			sourceTree = "<group>";
+		};
+		9B0C5D5B1EEE4764009CC963 /* m_Network */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C5D5C1EEE47C4009CC963 /* KCNetworkStatus.h */,
+				9B0C5D5D1EEE47C4009CC963 /* KCNetworkStatus.m */,
+			);
+			path = m_Network;
+			sourceTree = "<group>";
+		};
+		9B0C5D5F1EEE4A86009CC963 /* m_HttpsClient */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C5D601EEE4AA2009CC963 /* KCHttpsClient.h */,
+				9B0C5D611EEE4AA2009CC963 /* KCHttpsClient.m */,
+			);
+			path = m_HttpsClient;
+			sourceTree = "<group>";
+		};
 		9BD985D91EEC3ED200E4B7E5 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +194,9 @@
 		9BD985E41EEC3ED200E4B7E5 /* kcalclub */ = {
 			isa = PBXGroup;
 			children = (
+				9B0C5D5F1EEE4A86009CC963 /* m_HttpsClient */,
+				9B0C5D5B1EEE4764009CC963 /* m_Network */,
+				9BD9863A1EEC5B4900E4B7E5 /* m_Passport */,
 				9BD986191EEC4A3900E4B7E5 /* m_Controllers */,
 				9BD985E81EEC3ED200E4B7E5 /* AppDelegate.h */,
 				9BD985E91EEC3ED200E4B7E5 /* AppDelegate.m */,
@@ -242,6 +308,26 @@
 				9BD986381EEC56E500E4B7E5 /* KCCoverNavigationController.m */,
 			);
 			path = KCCoverNavigationController;
+			sourceTree = "<group>";
+		};
+		9BD9863A1EEC5B4900E4B7E5 /* m_Passport */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C5D4E1EED0F49009CC963 /* KCPassportNavigationController */,
+				9B0C5D4D1EED0F49009CC963 /* KCLoginViewController */,
+				9B0C5D4F1EED0F49009CC963 /* KCRegisterViewController */,
+				9BD9863B1EEC5B6700E4B7E5 /* KCUser */,
+			);
+			path = m_Passport;
+			sourceTree = "<group>";
+		};
+		9BD9863B1EEC5B6700E4B7E5 /* KCUser */ = {
+			isa = PBXGroup;
+			children = (
+				9BD9863C1EEC5B7100E4B7E5 /* KCUser.h */,
+				9BD9863D1EEC5B7100E4B7E5 /* KCUser.m */,
+			);
+			path = KCUser;
 			sourceTree = "<group>";
 		};
 		DFB98544746116F674C9296C /* Frameworks */ = {
@@ -435,14 +521,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0C5D551EED0F7E009CC963 /* KCLoginViewController.m in Sources */,
 				9BD9862C1EEC4EAD00E4B7E5 /* KCFirstViewController.m in Sources */,
+				9B0C5D5E1EEE47C4009CC963 /* KCNetworkStatus.m in Sources */,
 				9BD986291EEC4B4800E4B7E5 /* KCMainNavigationController.m in Sources */,
+				9B0C5D621EEE4AA2009CC963 /* KCHttpsClient.m in Sources */,
 				9BD986351EEC4EDA00E4B7E5 /* KCThirdViewController.m in Sources */,
 				9BD9862F1EEC4EB800E4B7E5 /* KCFourthViewController.m in Sources */,
+				9BD9863E1EEC5B7100E4B7E5 /* KCUser.m in Sources */,
+				9B0C5D581EED0F8F009CC963 /* KCRegisterViewController.m in Sources */,
 				9BD986251EEC4AFA00E4B7E5 /* KCCoverTabBarController.m in Sources */,
 				9BD985EA1EEC3ED200E4B7E5 /* AppDelegate.m in Sources */,
 				9BD986321EEC4ED000E4B7E5 /* KCSecondViewController.m in Sources */,
 				9BD985E71EEC3ED200E4B7E5 /* main.m in Sources */,
+				9B0C5D521EED0F68009CC963 /* KCPassportNavigationController.m in Sources */,
 				9BD986391EEC56E500E4B7E5 /* KCCoverNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
