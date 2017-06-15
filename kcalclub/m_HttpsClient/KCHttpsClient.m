@@ -40,12 +40,10 @@
 
 
 
-- (KCHttpsClient *)POST:(NSString *)URLString
++ (KCHttpsClient *)POST:(NSString *)URLString
              parameters:(id)parameters
                 success:(void (^)(id  _Nullable result))success
                 failure:(void (^)(NSError * _Nonnull error))failure{
-
-    
     
     KCHttpsClient *client = [[KCHttpsClient alloc] init];
     client.dataTask = [[AFHTTPSessionManager manager] POST:URLString parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
