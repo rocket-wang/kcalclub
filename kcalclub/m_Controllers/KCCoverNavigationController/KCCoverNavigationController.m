@@ -46,4 +46,17 @@
     return [self.topViewController preferredInterfaceOrientationForPresentation];
 }
 
+
+#pragma mark - StatusBar 设置
+- (BOOL)prefersStatusBarHidden{
+    return [self.topViewController prefersStatusBarHidden];
+}
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return [self.topViewController preferredStatusBarStyle];
+}
+
+-(UIStatusBarAnimation)preferredStatusBarUpdateAnimation{
+    return [self.topViewController preferredStatusBarUpdateAnimation];
+}
+
 @end

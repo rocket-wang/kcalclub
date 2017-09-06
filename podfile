@@ -5,6 +5,10 @@ platform :ios, "8.0"
 
 target :kcalclub do
   
+  
+  pod 'Masonry'
+  
+  
   pod 'KCNetworking', :path => '/Users/wanglei/iOS4KcalClub/KCNetworking'
   pod 'KCCore', :path => '/Users/wanglei/iOS4KcalClub/KCCore'
   pod 'KCCommon', :path => '/Users/wanglei/iOS4KcalClub/KCCommon'

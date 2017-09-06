@@ -12,7 +12,10 @@
 #import "KCFirstViewController.h"
 #import "KCSecondViewController.h"
 #import "KCThirdViewController.h"
-#import "KCFourthViewController.h"
+#import "KCMineController.h"
+#import <KCCommon/UINavigationController+Common.h>
+#import <KCCommon/UIColor+Common.h>
+//#import <KCCommon/KCCommon-umbrella.h>
 @interface KCCoverTabBarController ()<UITabBarControllerDelegate>
 
 @end
@@ -27,7 +30,7 @@
     [self createSubControllers];
     
     //设置标签栏文字和图片的颜色
-    self.tabBar.tintColor = [UIColor orangeColor];
+    self.tabBar.tintColor = RGBHexColor(0xfc6820, 1);
     
     //设置标签栏的颜色
     self.tabBar.barTintColor = [UIColor blackColor];
@@ -63,30 +66,36 @@
 #pragma mark - 创建子视图
 - (void)createSubControllers{
     KCFirstViewController *firstVC = [KCFirstViewController new];
-//    firstVC.tabBarItem.image = [UIImage imageNamed:@"12-eye"];
+    firstVC.tabBarItem.image = [UIImage imageNamed:@"ic_tab_train"];
     UINavigationController *firstNC = [[KCCoverNavigationController alloc]initWithRootViewController:firstVC];
+    firstNC.navigationBarHidden = YES;
     firstNC.tabBarItem.title = @"训练";
 
     KCSecondViewController *secondVC = [KCSecondViewController new];
-//    secondVC.tabBarItem.image = [UIImage imageNamed:@"21-skull"];
+    secondVC.tabBarItem.image = [UIImage imageNamed:@"ic_tab_nearby"];
     UINavigationController *secondNC = [[KCCoverNavigationController alloc]initWithRootViewController:secondVC];
+    secondNC.navigationBarHidden = YES;
     secondNC.tabBarItem.title = @"附近";
     
     KCThirdViewController *thirdVC = [KCThirdViewController new];
-//    thirdVC.tabBarItem.image = [UIImage imageNamed:@"21-skull"];
+    thirdVC.tabBarItem.image = [UIImage imageNamed:@"ic_tab_recommend"];
     UINavigationController *thirdNC = [[KCCoverNavigationController alloc]initWithRootViewController:thirdVC];
+    thirdNC.navigationBarHidden = YES;
     thirdNC.tabBarItem.title = @"精选";
     
-    KCFourthViewController *fourthVC = [KCFourthViewController new];
-//    fourthVC.tabBarItem.image = [UIImage imageNamed:@"21-skull"];
+    KCMineController *fourthVC = [[KCMineController alloc] initWithStyle:UITableViewStyleGrouped];
+    fourthVC.tabBarItem.image = [UIImage imageNamed:@"ic_tab_mine"];
     UINavigationController *fourthNC = [[KCCoverNavigationController alloc]initWithRootViewController:fourthVC];
     fourthNC.tabBarItem.title = @"我的";
+    {
+        NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+        attributes[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+        [firstNC.tabBarItem setTitleTextAttributes:attributes forState:UIControlStateNormal];
+        [secondNC.tabBarItem setTitleTextAttributes:attributes forState:UIControlStateNormal];
+        [thirdNC.tabBarItem setTitleTextAttributes:attributes forState:UIControlStateNormal];
+        [fourthNC.tabBarItem setTitleTextAttributes:attributes forState:UIControlStateNormal];
+    }
     
-    
-    firstVC.view.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/256.0f green:(arc4random()%255)/256.0f blue:(arc4random()%255)/256.0f alpha:1.0];
-    secondVC.view.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/256.0f green:(arc4random()%255)/256.0f blue:(arc4random()%255)/256.0f alpha:1.0];
-    thirdVC.view.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/256.0f green:(arc4random()%255)/256.0f blue:(arc4random()%255)/256.0f alpha:1.0];
-    fourthVC.view.backgroundColor = [UIColor colorWithRed:(arc4random()%255)/256.0f green:(arc4random()%255)/256.0f blue:(arc4random()%255)/256.0f alpha:1.0];
     
     self.viewControllers = @[firstNC,secondNC,thirdNC,fourthNC];
 }

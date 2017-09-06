@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BD8B9CC1F5AE92C00E4EF74 /* KCPersonalAvatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9C41F5AE92C00E4EF74 /* KCPersonalAvatarCell.m */; };
+		9BD8B9CD1F5AE92C00E4EF74 /* KCPersonalLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9C61F5AE92C00E4EF74 /* KCPersonalLabelCell.m */; };
+		9BD8B9CE1F5AE92C00E4EF74 /* KCPersonalTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9C81F5AE92C00E4EF74 /* KCPersonalTextFieldCell.m */; };
+		9BD8B9CF1F5AE92C00E4EF74 /* KCPersonalCenterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9CA1F5AE92C00E4EF74 /* KCPersonalCenterTVC.m */; };
+		9BD8B9D01F5AE92C00E4EF74 /* PersonalInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8B9CB1F5AE92C00E4EF74 /* PersonalInfo.json */; };
+		9BD8B9D71F5AE96000E4EF74 /* KCSettingsCenterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9D61F5AE96000E4EF74 /* KCSettingsCenterTVC.m */; };
+		9BD8B9DA1F5AE9A000E4EF74 /* KCMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9D91F5AE9A000E4EF74 /* KCMineController.m */; };
+		9BD8B9E31F5AEEFE00E4EF74 /* KCMineAvatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9E21F5AEEFE00E4EF74 /* KCMineAvatarCell.m */; };
+		9BD8B9E61F5AEF1900E4EF74 /* KCMineLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8B9E51F5AEF1900E4EF74 /* KCMineLabelCell.m */; };
 		9BD985E71EEC3ED200E4B7E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD985E61EEC3ED200E4B7E5 /* main.m */; };
 		9BD985EA1EEC3ED200E4B7E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD985E91EEC3ED200E4B7E5 /* AppDelegate.m */; };
 		9BD985F21EEC3ED300E4B7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD985F11EEC3ED300E4B7E5 /* Assets.xcassets */; };
@@ -15,7 +24,6 @@
 		9BD986251EEC4AFA00E4B7E5 /* KCCoverTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986241EEC4AFA00E4B7E5 /* KCCoverTabBarController.m */; };
 		9BD986291EEC4B4800E4B7E5 /* KCMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986281EEC4B4800E4B7E5 /* KCMainNavigationController.m */; };
 		9BD9862C1EEC4EAD00E4B7E5 /* KCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9862B1EEC4EAD00E4B7E5 /* KCFirstViewController.m */; };
-		9BD9862F1EEC4EB800E4B7E5 /* KCFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9862E1EEC4EB800E4B7E5 /* KCFourthViewController.m */; };
 		9BD986321EEC4ED000E4B7E5 /* KCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986311EEC4ED000E4B7E5 /* KCSecondViewController.m */; };
 		9BD986351EEC4EDA00E4B7E5 /* KCThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986341EEC4EDA00E4B7E5 /* KCThirdViewController.m */; };
 		9BD986391EEC56E500E4B7E5 /* KCCoverNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD986381EEC56E500E4B7E5 /* KCCoverNavigationController.m */; };
@@ -41,6 +49,23 @@
 
 /* Begin PBXFileReference section */
 		0E5271F982E043C01A3C45A1 /* Pods-kcalclub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalclub.release.xcconfig"; path = "Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub.release.xcconfig"; sourceTree = "<group>"; };
+		9BD8B9C31F5AE92C00E4EF74 /* KCPersonalAvatarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPersonalAvatarCell.h; sourceTree = "<group>"; };
+		9BD8B9C41F5AE92C00E4EF74 /* KCPersonalAvatarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPersonalAvatarCell.m; sourceTree = "<group>"; };
+		9BD8B9C51F5AE92C00E4EF74 /* KCPersonalLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPersonalLabelCell.h; sourceTree = "<group>"; };
+		9BD8B9C61F5AE92C00E4EF74 /* KCPersonalLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPersonalLabelCell.m; sourceTree = "<group>"; };
+		9BD8B9C71F5AE92C00E4EF74 /* KCPersonalTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPersonalTextFieldCell.h; sourceTree = "<group>"; };
+		9BD8B9C81F5AE92C00E4EF74 /* KCPersonalTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPersonalTextFieldCell.m; sourceTree = "<group>"; };
+		9BD8B9C91F5AE92C00E4EF74 /* KCPersonalCenterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPersonalCenterTVC.h; sourceTree = "<group>"; };
+		9BD8B9CA1F5AE92C00E4EF74 /* KCPersonalCenterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPersonalCenterTVC.m; sourceTree = "<group>"; };
+		9BD8B9CB1F5AE92C00E4EF74 /* PersonalInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PersonalInfo.json; sourceTree = "<group>"; };
+		9BD8B9D51F5AE96000E4EF74 /* KCSettingsCenterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSettingsCenterTVC.h; sourceTree = "<group>"; };
+		9BD8B9D61F5AE96000E4EF74 /* KCSettingsCenterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSettingsCenterTVC.m; sourceTree = "<group>"; };
+		9BD8B9D81F5AE9A000E4EF74 /* KCMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMineController.h; sourceTree = "<group>"; };
+		9BD8B9D91F5AE9A000E4EF74 /* KCMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMineController.m; sourceTree = "<group>"; };
+		9BD8B9E11F5AEEFE00E4EF74 /* KCMineAvatarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMineAvatarCell.h; sourceTree = "<group>"; };
+		9BD8B9E21F5AEEFE00E4EF74 /* KCMineAvatarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMineAvatarCell.m; sourceTree = "<group>"; };
+		9BD8B9E41F5AEF1900E4EF74 /* KCMineLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMineLabelCell.h; sourceTree = "<group>"; };
+		9BD8B9E51F5AEF1900E4EF74 /* KCMineLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMineLabelCell.m; sourceTree = "<group>"; };
 		9BD985E21EEC3ED200E4B7E5 /* kcalclub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcalclub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD985E61EEC3ED200E4B7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BD985E81EEC3ED200E4B7E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,8 +84,6 @@
 		9BD986281EEC4B4800E4B7E5 /* KCMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMainNavigationController.m; sourceTree = "<group>"; };
 		9BD9862A1EEC4EAD00E4B7E5 /* KCFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCFirstViewController.h; sourceTree = "<group>"; };
 		9BD9862B1EEC4EAD00E4B7E5 /* KCFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCFirstViewController.m; sourceTree = "<group>"; };
-		9BD9862D1EEC4EB800E4B7E5 /* KCFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCFourthViewController.h; sourceTree = "<group>"; };
-		9BD9862E1EEC4EB800E4B7E5 /* KCFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCFourthViewController.m; sourceTree = "<group>"; };
 		9BD986301EEC4ED000E4B7E5 /* KCSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSecondViewController.h; sourceTree = "<group>"; };
 		9BD986311EEC4ED000E4B7E5 /* KCSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSecondViewController.m; sourceTree = "<group>"; };
 		9BD986331EEC4EDA00E4B7E5 /* KCThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCThirdViewController.h; sourceTree = "<group>"; };
@@ -104,6 +127,62 @@
 				0E5271F982E043C01A3C45A1 /* Pods-kcalclub.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BD8B9C01F5AE92C00E4EF74 /* KCMineController */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8B9E01F5AEEE500E4EF74 /* cells */,
+				9BD8B9D41F5AE96000E4EF74 /* KCSettingsCenterTVC */,
+				9BD8B9C11F5AE92C00E4EF74 /* KCPersonalCenterTVC */,
+				9BD8B9D81F5AE9A000E4EF74 /* KCMineController.h */,
+				9BD8B9D91F5AE9A000E4EF74 /* KCMineController.m */,
+			);
+			path = KCMineController;
+			sourceTree = "<group>";
+		};
+		9BD8B9C11F5AE92C00E4EF74 /* KCPersonalCenterTVC */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8B9C21F5AE92C00E4EF74 /* cells */,
+				9BD8B9C91F5AE92C00E4EF74 /* KCPersonalCenterTVC.h */,
+				9BD8B9CA1F5AE92C00E4EF74 /* KCPersonalCenterTVC.m */,
+				9BD8B9CB1F5AE92C00E4EF74 /* PersonalInfo.json */,
+			);
+			path = KCPersonalCenterTVC;
+			sourceTree = "<group>";
+		};
+		9BD8B9C21F5AE92C00E4EF74 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8B9C31F5AE92C00E4EF74 /* KCPersonalAvatarCell.h */,
+				9BD8B9C41F5AE92C00E4EF74 /* KCPersonalAvatarCell.m */,
+				9BD8B9C51F5AE92C00E4EF74 /* KCPersonalLabelCell.h */,
+				9BD8B9C61F5AE92C00E4EF74 /* KCPersonalLabelCell.m */,
+				9BD8B9C71F5AE92C00E4EF74 /* KCPersonalTextFieldCell.h */,
+				9BD8B9C81F5AE92C00E4EF74 /* KCPersonalTextFieldCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		9BD8B9D41F5AE96000E4EF74 /* KCSettingsCenterTVC */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8B9D51F5AE96000E4EF74 /* KCSettingsCenterTVC.h */,
+				9BD8B9D61F5AE96000E4EF74 /* KCSettingsCenterTVC.m */,
+			);
+			path = KCSettingsCenterTVC;
+			sourceTree = "<group>";
+		};
+		9BD8B9E01F5AEEE500E4EF74 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8B9E41F5AEF1900E4EF74 /* KCMineLabelCell.h */,
+				9BD8B9E51F5AEF1900E4EF74 /* KCMineLabelCell.m */,
+				9BD8B9E11F5AEEFE00E4EF74 /* KCMineAvatarCell.h */,
+				9BD8B9E21F5AEEFE00E4EF74 /* KCMineAvatarCell.m */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		9BD985D91EEC3ED200E4B7E5 = {
@@ -174,7 +253,6 @@
 				9BD986361EEC56CC00E4B7E5 /* KCCoverNavigationController */,
 				9BD986221EEC4AE500E4B7E5 /* KCCoverTabBarController */,
 				9BD9861B1EEC4A3900E4B7E5 /* KCFirstViewController */,
-				9BD9861C1EEC4A3900E4B7E5 /* KCFourthViewController */,
 				9BD9861D1EEC4A3900E4B7E5 /* KCSecondViewController */,
 				9BD9861E1EEC4A3900E4B7E5 /* KCThirdViewController */,
 			);
@@ -188,15 +266,6 @@
 				9BD9862B1EEC4EAD00E4B7E5 /* KCFirstViewController.m */,
 			);
 			path = KCFirstViewController;
-			sourceTree = "<group>";
-		};
-		9BD9861C1EEC4A3900E4B7E5 /* KCFourthViewController */ = {
-			isa = PBXGroup;
-			children = (
-				9BD9862D1EEC4EB800E4B7E5 /* KCFourthViewController.h */,
-				9BD9862E1EEC4EB800E4B7E5 /* KCFourthViewController.m */,
-			);
-			path = KCFourthViewController;
 			sourceTree = "<group>";
 		};
 		9BD9861D1EEC4A3900E4B7E5 /* KCSecondViewController */ = {
@@ -220,6 +289,7 @@
 		9BD986221EEC4AE500E4B7E5 /* KCCoverTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				9BD8B9C01F5AE92C00E4EF74 /* KCMineController */,
 				9BD986231EEC4AFA00E4B7E5 /* KCCoverTabBarController.h */,
 				9BD986241EEC4AFA00E4B7E5 /* KCCoverTabBarController.m */,
 			);
@@ -363,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD985F21EEC3ED300E4B7E5 /* Assets.xcassets in Resources */,
+				9BD8B9D01F5AE92C00E4EF74 /* PersonalInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,9 +460,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub-resources.sh",
+				"${PODS_ROOT}/../../KCCommon/KCCommon/Assets/KCCommon.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -438,15 +512,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD8B9CF1F5AE92C00E4EF74 /* KCPersonalCenterTVC.m in Sources */,
 				9BD9862C1EEC4EAD00E4B7E5 /* KCFirstViewController.m in Sources */,
 				9BD986291EEC4B4800E4B7E5 /* KCMainNavigationController.m in Sources */,
+				9BD8B9E61F5AEF1900E4EF74 /* KCMineLabelCell.m in Sources */,
 				9BD986351EEC4EDA00E4B7E5 /* KCThirdViewController.m in Sources */,
-				9BD9862F1EEC4EB800E4B7E5 /* KCFourthViewController.m in Sources */,
+				9BD8B9DA1F5AE9A000E4EF74 /* KCMineController.m in Sources */,
+				9BD8B9E31F5AEEFE00E4EF74 /* KCMineAvatarCell.m in Sources */,
 				9BD986251EEC4AFA00E4B7E5 /* KCCoverTabBarController.m in Sources */,
+				9BD8B9CD1F5AE92C00E4EF74 /* KCPersonalLabelCell.m in Sources */,
 				9BD985EA1EEC3ED200E4B7E5 /* AppDelegate.m in Sources */,
 				9BD986321EEC4ED000E4B7E5 /* KCSecondViewController.m in Sources */,
+				9BD8B9CE1F5AE92C00E4EF74 /* KCPersonalTextFieldCell.m in Sources */,
+				9BD8B9CC1F5AE92C00E4EF74 /* KCPersonalAvatarCell.m in Sources */,
 				9BD985E71EEC3ED200E4B7E5 /* main.m in Sources */,
 				9BD986391EEC56E500E4B7E5 /* KCCoverNavigationController.m in Sources */,
+				9BD8B9D71F5AE96000E4EF74 /* KCSettingsCenterTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
