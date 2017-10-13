@@ -8,6 +8,7 @@
 
 #import "KCMineController.h"
 #import <KCCommon/UIViewController+Common.h>
+#import <KCCommon/UINavigationController+Common.h>
 #import <KCCommon/UIColor+Common.h>
 #import "KCMineLabelCell.h"
 #import "KCMineAvatarCell.h"
@@ -25,7 +26,7 @@
     
     self.titleLabel.text = @"我的";
     self.titleLabel.textColor = [UIColor whiteColor];
-    self.navigationColor = RGBHexColor(0xfc6820, 1);
+    self.navigationController.navigationColor = RGBHexColor(0xfc6820, 1);
     [self.navigationController.navigationBar setShadowImage:[UIImage new]];
     
     

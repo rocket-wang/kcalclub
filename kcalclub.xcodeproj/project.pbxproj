@@ -387,6 +387,9 @@
 		9BD985DA1EEC3ED200E4B7E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"com.apple.gamecenter.Dashboard Image",
+				);
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = WangLei;
 				TargetAttributes = {
@@ -462,6 +465,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-kcalclub/Pods-kcalclub-resources.sh",
 				"${PODS_ROOT}/../../KCCommon/KCCommon/Assets/KCCommon.xcassets",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

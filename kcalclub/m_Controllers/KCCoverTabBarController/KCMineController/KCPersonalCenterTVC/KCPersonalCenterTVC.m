@@ -13,6 +13,7 @@
 #import "KCPersonalTextFieldCell.h"
 #import <KCCommon/UIColor+Common.h>
 #import <KCCommon/UIViewController+Common.h>
+#import <KCCommon/UINavigationController+Common.h>
 
 @interface KCPersonalCenterTVC ()
 
@@ -41,7 +42,7 @@
     
     self.titleLabel.text = @"个人资料";
     self.titleLabel.textColor = RGBHexColor(0xc2c2c2, 1);
-    self.navigationColor = RGBHexColor(0x404040, 1);
+    self.navigationController.navigationColor = RGBHexColor(0x404040, 1);
     UIImage *image = [UIImage imageNamed:@"ic_navigation_bar_back_white"];
     image =  [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [self.backButton setImage:image forState:UIControlStateNormal];

@@ -4,14 +4,13 @@ platform :ios, "8.0"
 #use_frameworks!
 
 target :kcalclub do
-  
-  
   pod 'Masonry'
-  
   
   pod 'KCNetworking', :path => '/Users/wanglei/iOS4KcalClub/KCNetworking'
   pod 'KCCore', :path => '/Users/wanglei/iOS4KcalClub/KCCore'
   pod 'KCCommon', :path => '/Users/wanglei/iOS4KcalClub/KCCommon'
   pod 'KCPassport', :path => '/Users/wanglei/iOS4KcalClub/KCPassport'
+  pod 'KCUtils', :path => '/Users/wanglei/iOS4KcalClub/KCUtils'
+  pod 'KCRouter', :path => '/Users/wanglei/iOS4KcalClub/KCRouter'
   
 end
